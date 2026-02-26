@@ -44,9 +44,10 @@ To ensure software results match our silicon measurements, the following analog 
 ├── data/                # Dataset
 ├── main_pim.py          # Main training script
 └── README.md            # It's me
+```
 
 ---
 
 ## Quick Start
-1. Ensure you have PyTorch and Torchvision installed: pip install torch torchvision
-2. Run the main training script: python main_pim.py
+1. Ensure you have PyTorch and Torchvision installed: ```bash pip install torch torchvision
+2. Run the main training script: ```bash python main_pim.py
