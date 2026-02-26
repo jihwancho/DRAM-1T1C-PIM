@@ -27,7 +27,7 @@ Where:
 ### Hardware Constraints
 The API is strictly constrained by the following physical hardware parameters:
 
-* **PIM Array Size** 96 (`NUM_ROWS`) x 128 (`NUM_COLS`)
+* **PIM Array Size**: 96 (`NUM_ROWS`) x 128 (`NUM_COLS`)
 * **Compute Cycle**: 50 (`NUM_CYCLE`)
 * **Precision**: 1-bit Weight, 1-bit Input, 1-bit Output
 
@@ -41,8 +41,8 @@ Input and Weight tensors must match the following shapes exactly to satisfy hard
 
 ### Parameters
 * **mode**
-  * `'sim'`(default): Simulation mode, used in simulation.
-  * `'hardware'`: Hardware mode, calling the actual PIM chip driver used in measurement. 
+  - **`'sim'`(default)**: Simulation mode, used in simulation.
+  - **`'hardware'`**: Hardware mode, calling the actual PIM chip driver used in measurement. 
 
 ---
 
