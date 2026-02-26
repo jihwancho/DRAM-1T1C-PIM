@@ -32,7 +32,7 @@ The API is strictly constrained by the following physical hardware parameters:
 * **Precision**: 1-bit Weight, 1-bit Input, 1-bit Output
 
 ### Required Tensor Dimensions
-Input and Weight tensors must match the following shapes exactly to satisfy hardware guardrails:
+Input and Weight tensors must match the following shapes exactly to satisfy hardware constraints:
 | Tensor | Parameterized Shape | Actual Shape |
 | :--- | :--- | :--- |
 | **Input** | `NUM_CYCLE` x `NUM_ROWS` | **50 x 96** |
@@ -41,8 +41,8 @@ Input and Weight tensors must match the following shapes exactly to satisfy hard
 
 ### Parameters
 * **mode**
-  *`sim`(default): Simulation mode, used in simulation.
-  *`hardware`: Hardware mode, calling the actual PIM chip driver used in measurement. 
+  * `'sim'`(default): Simulation mode, used in simulation.
+  * `'hardware'`: Hardware mode, calling the actual PIM chip driver used in measurement. 
 
 ---
 
