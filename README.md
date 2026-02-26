@@ -49,5 +49,11 @@ To ensure software results match our silicon measurements, the following analog 
 ---
 
 ## Quick Start
-1. Ensure you have PyTorch and Torchvision installed: ```bash pip install torch torchvision
-2. Run the main training script: ```bash python main_pim.py
+1. Ensure you have PyTorch and Torchvision installed: 
+```bash 
+pip install torch torchvision
+```
+2. Run the main training script: 
+```bash 
+python main_pim.py
+```
